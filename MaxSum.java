@@ -4,7 +4,7 @@ class MaxSum
     
     public static void main(String[]args)
     {
-        int size;
+        //int size;
         Scanner sc=new Scanner(System.in);
         System.out.println("\nEnter size: ");
         size=sc.nextInt();
