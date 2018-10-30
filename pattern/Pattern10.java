@@ -1,5 +1,5 @@
 ﻿import java.lang.Math;
-public class MyClass {
+public class Pattern10 {
     public static void main(String args[]) {
         
        int row=5,n=1,k=row-1;

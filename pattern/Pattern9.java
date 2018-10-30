@@ -1,5 +1,5 @@
 ﻿import java.lang.Math;
-public class MyClass {
+public class Pattern9 {
     public static void main(String args[]) {
         
        int n=25,k=1,row=(int)Math.sqrt(n),count=1;

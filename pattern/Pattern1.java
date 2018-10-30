@@ -1,4 +1,4 @@
-﻿public class MyClass {
+﻿public class Pattern1 {
     public static void main(String args[]) {
         
        int n=7,k=0;
