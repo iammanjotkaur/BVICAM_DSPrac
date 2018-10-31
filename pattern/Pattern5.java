@@ -1,11 +1,13 @@
-﻿public class Pattern5 {
-    public static void main(String args[]) {
+﻿class Pattern5
+{
+    public static void main(String []args)
+    {
         
-       int n=7,k=1;
-       for(int i=0;i<7;i++)
+int n=7,k=1;
+       for(int i=0;i<n;i++)
        {     
            
-           for(int j=0;j<k;j++)
+           for(int j=0;j<n;j++)
            {
            
                System.out.print("*");
@@ -14,4 +16,5 @@
            System.out.print("\n");
        }
     }
+
 }
