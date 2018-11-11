@@ -1,5 +1,5 @@
 import java.util.Scanner;  
-class Quicksort
+class Quicksort_end
 {
     static void swap(int input [],int x,int y)
     {
