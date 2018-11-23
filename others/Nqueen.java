@@ -1,3 +1,19 @@
+/*
+Enter n:
+4
+0 0 1 0 
+1 0 0 0 
+0 0 0 1 
+0 1 0 0 
+manjots-MacBook-Pro:others manjotkaur$ java Nqueen
+Enter n:
+5
+1 0 0 0 0 
+0 0 0 1 0 
+0 1 0 0 0 
+0 0 0 0 1 
+0 0 1 0 0 
+*/
 import java.util.Scanner;
 class Nqueen
 {
@@ -14,14 +30,15 @@ class Nqueen
     {
         int i,j;
         for(i=0;i<col;i++)
-        {if(mat[row][col]==1)
-                return true;}
+        {if(mat[row][i]==1)
+                return false;}
         for(i=row,j=col;i>=0 && j>=0;i--,j--)
         {if(mat[i][j]==1)
-                return true;}
-        for(i=row,j=col;i<=n && j>=0;i++,j--)
+                return false;}
+        for(i=row,j=col;i<n && j>=0;i++,j--)
         {if(mat[i][j]==1)
-                return true;}
+                return false;}
+        return true;
     }
     static boolean solveNQueen(int mat[][],int col,int n)
     {
